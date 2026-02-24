@@ -2,6 +2,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/11.3.0/firebas
 
 import { getAuth  } from "https://www.gstatic.com/firebasejs/11.3.0/firebase-auth.js";
 
+
 const firebaseConfig = {
   apiKey: "AIzaSyA3Ql0hL3a7bufeXJZfNfS1aFNZW0D7TcI",
   authDomain: "fire-begin-daaba.firebaseapp.com",
@@ -11,6 +12,7 @@ const firebaseConfig = {
   appId: "1:1086688232048:web:5ce69975835b3f69762ab5",
   measurementId: "G-KE0KLRBC84"
 };
+
 
 export const app = initializeApp(firebaseConfig);
 

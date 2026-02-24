@@ -1,14 +1,14 @@
 body{
-    height: 100vh;
     /* background: linear-gradient(200deg, #e7195e, #e7195e, #0b6992, #0b6992); */
     background: linear-gradient(0deg, darkblue , black);
+    height: 92.8vh;
     text-align: center;
     color: white;
 }
 
 h1{
     font-size: 3.5rem;
-    /* border-bottom: 2px solid green; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 20px;
 }
 
@@ -17,19 +17,6 @@ input{
     padding-top: 10px;
     padding-bottom: 10px;
     border: 8px double black;
-}
-
-.loginBtn{
-    border: 2px dotted black;
-    padding: 10px 255px;
-    background-color: gainsboro;
-    cursor: pointer;
-}
-
-.loginBtn:hover {
-    background-color: rgb(159, 255, 225);
-    color: black;
-    font-size: 1rem;
 }
 
 a{
@@ -46,6 +33,34 @@ a:hover {
     font-size: 1.5rem;
 }
 
+.registerBtn{
+    border: 2px dotted black;
+    padding: 10px 245px;
+    background-color: gainsboro;
+    cursor: pointer;
+}
+
+.registerBtn:hover {
+    background-color: black;
+    color: white;
+    border: 2px dotted white;
+    font-size: 1rem;
+}
+
+.loginBtn{
+    border: 2px dotted black;
+    padding: 10px 252px;
+    background-color: gainsboro;
+    cursor: pointer;
+}
+
+.loginBtn:hover {
+    background-color: black;
+    color: white;
+    border: 2px dotted white;
+    font-size: 1rem;
+}
+
 .googleButton{
     background: linear-gradient(150deg, red , yellow, green, blue);   
     border: 1px solid black;
@@ -59,29 +74,64 @@ a:hover {
     font-size: 1.666rem;
 }
 
-.registerBtn{
+.logoutBtn{
     border: 2px dotted black;
-    padding: 10px 245px;
+    padding: 10px 240px;
+    font-size: xx-large;
     background-color: gainsboro;
     cursor: pointer;
 }
 
-.registerBtn:hover {
-    background-color: rgb(159, 255, 225);
-    color: black;
-    font-size: 1rem;
-}
-
-.logoutBtn{
-    border: 2px dotted black;
-    padding: 10px 100px;
-    font-size: large;
-    background-color: gainsboro;
-    cursor: pointer;   
-}
-
 .logoutBtn:hover {
-    background-color: rgb(159, 255, 225);
-    color: black;
+    background-color: black;
+    color: white;
+    border: 2px dotted white;
     font-size: 1.8rem;
+}
+
+
+@media (max-width: 1024px) {
+
+    h1{
+        font-size: 3rem;
+    }
+    .input{
+        border: 4px double black;
+    }
+    .registerBtn{
+        padding: 10px 180px;
+    }
+    .loginBtn{
+        padding: 10px 180px;
+    }
+    .googleButton{
+        padding: 10px 105px;
+    }
+    .logoutBtn{
+        padding: 10px 170px;
+        font-size: x-large;
+    }
+
+}
+
+@media (max-width: 600px) {
+    
+    h1{
+        font-size: 2.5rem;
+    }
+    .registerBtn{
+        padding: 10px 110px;
+    }
+    .loginBtn{
+        padding: 10px 120px;
+    }
+    .googleButton{
+        padding: 10px 66px;
+        font-size: 1.2rem;
+    }
+    .logoutBtn{
+        padding: 10px 100px;
+        font-size: large;
+    }
+
 }
