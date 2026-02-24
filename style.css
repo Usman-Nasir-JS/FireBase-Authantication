@@ -1,7 +1,7 @@
 body{
     /* background: linear-gradient(200deg, #e7195e, #e7195e, #0b6992, #0b6992); */
     background: linear-gradient(0deg, darkblue , black);
-    height: 92vh;
+    height: 100vh;
     text-align: center;
     color: white;
 }
